@@ -1,10 +1,6 @@
 from fastapi import FastAPI
 
-app = FastAPI(
-    title="CloudOps API",
-    version="1.0.0",
-    description="API do projeto CloudOps Pipeline"
-)
+app = FastAPI(title="CloudOps API", version="1.0.0")
 
 @app.get("/")
 def home():
